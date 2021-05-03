@@ -17,5 +17,8 @@
             @endforeach
         </div>
         <h3><a href="/posts/{{ $post->id }}">{{ $post->title }}</a>
+        <div class="create">
+            <a href="/posts/create">create</a>
+        </div>
     </body>
 </html>
