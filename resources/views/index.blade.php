@@ -16,6 +16,10 @@
                 </div>
             @endforeach
         </div>
+        <div class='paginate'>
+            {{ $posts->links() }}
+        </div>
         <h3><a href="/posts/{{ $post->id }}">{{ $post->title }}</a>
+        [<a href='/posts/create'>create</a>]
     </body>
 </html>
